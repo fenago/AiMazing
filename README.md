@@ -1,6 +1,6 @@
 # AiMazing.io
 
-[![AiMazing: AI-Powered Full-Stack Web Development in the Browser - By Dr. Ernesto Lee](./public/social_preview_index.jpg)](https://aimazing.io)
+[![AiMazing: AI-Powered Full-Stack Web Development in the Browser - By Dr. Ernesto Lee](./public/social_preview_index.png)](https://aimazing.io)
 
 Welcome to **AiMazing**, the advanced AI-powered development platform by Dr. Ernesto Lee, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, Groq, Cohere, Together, Perplexity, Moonshot (Kimi), Hyperbolic, GitHub Models, Amazon Bedrock, and OpenAI-like providers - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
@@ -98,7 +98,7 @@ Let's get you up and running with the stable version of **AiMazing**!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20AiMazing&sort=semver)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← Click here to go to the latest release version!
+[![Download Latest Release](https://img.shields.io/github/v/release/fenago/AiMazing?label=Download%20AiMazing&sort=semver)](https://github.com/fenago/AiMazing/releases/latest) ← Click here to go to the latest release version!
 
 - Download the binary for your platform (available for Windows, macOS, and Linux)
 - **Note**: For macOS, if you get the error "This app is damaged", run:
@@ -184,7 +184,7 @@ This option requires some familiarity with Docker but provides a more isolated e
 For users who prefer a native desktop experience, AiMazing is also available as an Electron desktop application:
 
 1. **Download the Desktop App**:
-   - Visit the [latest release](https://github.com/stackblitz-labs/bolt.diy/releases/latest)
+   - Visit the [latest release](https://github.com/fenago/AiMazing/releases/latest)
    - Download the appropriate binary for your operating system
    - For macOS: Extract and run the `.dmg` file
    - For Windows: Run the `.exe` installer
@@ -351,13 +351,13 @@ This method is recommended for developers who want to:
 1. **Clone the Repository**:
 
    ```bash
-   git clone -b stable https://github.com/stackblitz-labs/bolt.diy.git
+   git clone -b stable https://github.com/fenago/AiMazing.git
    ```
 
 2. **Navigate to Project Directory**:
 
    ```bash
-   cd bolt.diy
+   cd AiMazing
    ```
 
 3. **Install Dependencies**:
@@ -504,8 +504,8 @@ Deploy your AiMazing application to Cloudflare Pages for fast, global distributi
 
 1. **Clone and build locally**:
    ```bash
-   git clone https://github.com/stackblitz-labs/bolt.diy.git
-   cd bolt.diy
+   git clone https://github.com/fenago/AiMazing.git
+   cd AiMazing
    npm install -g pnpm
    pnpm install
    pnpm run build
