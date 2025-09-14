@@ -1,18 +1,18 @@
-# bolt.diy
+# AiMazing.io
 
-[![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.diy)
+[![AiMazing: AI-Powered Full-Stack Web Development in the Browser - By Dr. Ernesto Lee](./public/social_preview_index.jpg)](https://aimazing.io)
 
-Welcome to bolt.diy, the official open source version of Bolt.new, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, Groq, Cohere, Together, Perplexity, Moonshot (Kimi), Hyperbolic, GitHub Models, Amazon Bedrock, and OpenAI-like providers - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
-
------
-Check the [bolt.diy Docs](https://stackblitz-labs.github.io/bolt.diy/) for more official installation instructions and additional information.
+Welcome to **AiMazing**, the advanced AI-powered development platform by Dr. Ernesto Lee, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, Groq, Cohere, Together, Perplexity, Moonshot (Kimi), Hyperbolic, GitHub Models, Amazon Bedrock, and OpenAI-like providers - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
 -----
-Also [this pinned post in our community](https://thinktank.ottomator.ai/t/videos-tutorial-helpful-content/3243) has a bunch of incredible resources for running and deploying bolt.diy yourself!
+Check the [AiMazing Docs](https://aimazing.io/docs) for more official installation instructions and additional information.
 
-We have also launched an experimental agent called the "bolt.diy Expert" that can answer common questions about bolt.diy. Find it here on the [oTTomator Live Agent Studio](https://studio.ottomator.ai/).
+-----
+Also [this pinned post in our community](https://thinktank.ottomator.ai/t/videos-tutorial-helpful-content/3243) has a bunch of incredible resources for running and deploying AiMazing yourself!
 
-bolt.diy was originally started by [Cole Medin](https://www.youtube.com/@ColeMedin) but has quickly grown into a massive community effort to build the BEST open source AI coding assistant!
+We have also launched an experimental agent called the "AiMazing Expert" that can answer common questions about AiMazing. Find it here on the [oTTomator Live Agent Studio](https://studio.ottomator.ai/).
+
+**AiMazing** was created by **Dr. Ernesto Lee** and has quickly grown into a powerful AI development platform to build the BEST open source AI coding assistant!
 
 ## Table of Contents
 
@@ -25,17 +25,19 @@ bolt.diy was originally started by [Cole Medin](https://www.youtube.com/@ColeMed
 - [Configuring API Keys and Providers](#configuring-api-keys-and-providers)
 - [Setup Using Git (For Developers only)](#setup-using-git-for-developers-only)
 - [Available Scripts](#available-scripts)
+- [Helpful Resources for Images](#helpful-resources-for-images)
+- [Cloudflare Pages Deployment](#cloudflare-pages-deployment)
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
 
 ## Join the community
 
-[Join the bolt.diy community here, in the oTTomator Think Tank!](https://thinktank.ottomator.ai)
+[Join the AiMazing community here, in the oTTomator Think Tank!](https://thinktank.ottomator.ai)
 
 ## Project management
 
-Bolt.diy is a community effort! Still, the core team of contributors aims at organizing the project in way that allows
+AiMazing is developed by Dr. Ernesto Lee with community contributions! Still, the core team of contributors aims at organizing the project in way that allows
 you to understand where the current areas of focus are.
 
 If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
@@ -92,11 +94,11 @@ project, please check the [project management guide](./PROJECT.md) to get starte
 
 If you're new to installing software from GitHub, don't worry! If you encounter any issues, feel free to submit an "issue" using the provided links or improve this documentation by forking the repository, editing the instructions, and submitting a pull request. The following instruction will help you get the stable branch up and running on your local machine in no time.
 
-Let's get you up and running with the stable version of Bolt.DIY!
+Let's get you up and running with the stable version of **AiMazing**!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20Bolt&sort=semver)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← Click here to go to the latest release version!
+[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20AiMazing&sort=semver)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← Click here to go to the latest release version!
 
 - Download the binary for your platform (available for Windows, macOS, and Linux)
 - **Note**: For macOS, if you get the error "This app is damaged", run:
@@ -130,7 +132,7 @@ Node.js is required to run the application.
 
 ## Running the Application
 
-You have two options for running Bolt.DIY: directly on your machine or using Docker.
+You have two options for running AiMazing: directly on your machine or using Docker.
 
 ### Option 1: Direct Installation (Recommended for Beginners)
 
@@ -179,7 +181,7 @@ This option requires some familiarity with Docker but provides a more isolated e
 
 ### Option 3: Desktop Application (Electron)
 
-For users who prefer a native desktop experience, bolt.diy is also available as an Electron desktop application:
+For users who prefer a native desktop experience, AiMazing is also available as an Electron desktop application:
 
 1. **Download the Desktop App**:
    - Visit the [latest release](https://github.com/stackblitz-labs/bolt.diy/releases/latest)
@@ -205,7 +207,7 @@ The desktop app provides the same full functionality as the web version with add
 
 ## Configuring API Keys and Providers
 
-Bolt.diy features a modern, intuitive settings interface for managing AI providers and API keys. The settings are organized into dedicated panels for easy navigation and configuration.
+**AiMazing by Dr. Ernesto Lee** features a modern, intuitive settings interface for managing AI providers and API keys. The settings are organized into dedicated panels for easy navigation and configuration.
 
 ### Accessing Provider Settings
 
@@ -252,7 +254,7 @@ The Local Providers tab manages local AI installations and custom endpoints:
 
 ### Environment Variables vs UI Configuration
 
-Bolt.diy supports both methods for maximum flexibility:
+AiMazing supports both methods for maximum flexibility:
 
 #### Environment Variables (Recommended for Production)
 Set API keys and base URLs in your `.env.local` file:
@@ -380,7 +382,7 @@ This method is recommended for developers who want to:
 >**Open the WebUI to test (Default: http://localhost:5173)**
 >   - Beginners: 
 >     - Try to use a sophisticated Provider/Model like Anthropic with Claude Sonnet 3.x Models to get best results
->     - Explanation: The System Prompt currently implemented in bolt.diy cant cover the best performance for all providers and models out there. So it works better with some models, then other, even if the models itself are perfect for >programming
+>     - Explanation: The System Prompt currently implemented in AiMazing cant cover the best performance for all providers and models out there. So it works better with some models, then other, even if the models itself are perfect for >programming
 >     - Future: Planned is a Plugin/Extentions-Library so there can be different System Prompts for different Models, which will help to get better results
 
 #### Staying Updated
@@ -469,6 +471,90 @@ Remember to always commit your local changes or stash them before pulling update
 
 ---
 
+## Helpful Resources for Images
+
+### Image Editing Tools
+- **Resize Images**: Go to [Adobe Express PNG Resizer](https://www.adobe.com/express/feature/image/resize/png) to resize your PNG images for free
+- **Transparent Backgrounds**: Go to [Adobe Express Background Remover](https://www.adobe.com/express/feature/image/remove-background) to give PNGs a transparent background
+
+### How to push code to GitHub
+
+**First time only:**
+```bash
+git remote remove origin
+git init -b main
+./git-push.bat  # Make sure you update links in here first!
+```
+
+**Then you can just do this moving forward:**
+```bash
+./git-push.bat
+```
+
+## Cloudflare Pages Deployment
+
+Deploy your AiMazing application to Cloudflare Pages for fast, global distribution.
+
+### Prerequisites
+
+- A [Cloudflare account](https://cloudflare.com) (free tier works)
+- Node.js and pnpm installed locally
+
+### Step-by-Step Deployment Process
+
+1. **Clone and build locally**:
+   ```bash
+   git clone https://github.com/stackblitz-labs/bolt.diy.git
+   cd bolt.diy
+   npm install -g pnpm
+   pnpm install
+   pnpm run build
+   ```
+
+2. **Verify build succeeded**:
+   ```bash
+   ls build/client
+   # You should see index.html and other files
+   ```
+
+3. **Install Wrangler CLI** (if not already installed):
+   ```bash
+   npm install -g wrangler
+   ```
+
+4. **Login to Cloudflare**:
+   ```bash
+   wrangler login
+   # This opens a browser to authenticate with your Cloudflare account
+   ```
+
+5. **Deploy directly**:
+   ```bash
+   wrangler pages deploy build/client --project-name=your-project-name
+   ```
+   Replace `your-project-name` with your desired project name.
+
+### What happens during deployment
+
+- Wrangler creates a new Cloudflare Pages project (if it doesn't exist)
+- Your build files are uploaded to Cloudflare's edge network
+- You'll receive a unique URL like `https://[hash].[project-name].pages.dev`
+- The deployment typically completes in 1-2 minutes
+
+### Managing your deployment
+
+- **View deployments**: Visit the [Cloudflare Pages dashboard](https://dash.cloudflare.com/pages)
+- **Custom domains**: Add custom domains through the dashboard
+- **Environment variables**: Configure API keys and settings in the Pages dashboard under "Settings" → "Environment variables"
+
+### Troubleshooting
+
+- **Build warnings**: Bundling warnings about "sideEffects" are normal and don't affect functionality
+- **URL not working**: Wait 1-2 minutes for DNS propagation
+- **Authentication issues**: Run `wrangler logout` then `wrangler login` to re-authenticate
+
+---
+
 ## Contributing
 
 We welcome contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
@@ -489,5 +575,5 @@ For answers to common questions, issues, and to see a list of recommended models
 # Licensing
 **Who needs a commercial WebContainer API license?**
 
-bolt.diy source code is distributed as MIT, but it uses WebContainers API that [requires licensing](https://webcontainers.io/enterprise) for production usage in a commercial, for-profit setting. (Prototypes or POCs do not require a commercial license.) If you're using the API to meet the needs of your customers, prospective customers, and/or employees, you need a license to ensure compliance with our Terms of Service. Usage of the API in violation of these terms may result in your access being revoked.
+AiMazing source code is distributed as MIT by Dr. Ernesto Lee, but it uses WebContainers API that [requires licensing](https://webcontainers.io/enterprise) for production usage in a commercial, for-profit setting. (Prototypes or POCs do not require a commercial license.) If you're using the API to meet the needs of your customers, prospective customers, and/or employees, you need a license to ensure compliance with our Terms of Service. Usage of the API in violation of these terms may result in your access being revoked.
 # Test commit to trigger Security Analysis workflow

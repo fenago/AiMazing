@@ -1,14 +1,14 @@
 {
-  "name": "bolt",
-  "description": "An AI Agent",
+  "name": "aimazing",
+  "description": "AiMazing - AI-Powered Full-Stack Web Development Platform by Dr. Ernesto Lee",
   "private": true,
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
   "version": "1.0.0",
   "author": {
-    "name": "bolt.diy team",
-    "email": "maintainers@bolt.diy"
+    "name": "Dr. Ernesto Lee",
+    "email": "contact@aimazing.io"
   },
   "scripts": {
     "deploy": "npm run build && wrangler pages deploy",

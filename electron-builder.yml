@@ -1,5 +1,5 @@
-appId: com.stackblitz.bolt.diy
-productName: Bolt Local
+appId: io.aimazing.app
+productName: AiMazing - By Dr. Ernesto Lee
 directories:
   buildResources: build
   output: dist
